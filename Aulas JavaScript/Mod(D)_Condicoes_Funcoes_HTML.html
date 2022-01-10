@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        /************************** CONDIÇÃO SIMPLES E FUNÇÃO **********************/
+        /* 
+        <h1>Sistema de Multas</h1>
+        <p>Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h <input type="button" value="Calcular" onclick="calcular()"></p>
+        <p id="res">Resultado</p>
+        <script>
+            function calcular() {
+                var txtvel = window.document.querySelector('input#txtvel')
+                var res = window.document.querySelector('#res')
+                var vel = Number(txtvel.value)
+                res.innerHTML= `<p> Sua velocidade é <strong>${vel}Km/h</strong> </p>`
+                if(vel > 60) {
+                    res.innerHTML += `<p> Você ultrapassou o limite de velocidade permitido. MULTADO! </p>`
+                }
+                res.innerHTML += `<p> Dirija sempre com o cinto de segurança! </p>`
+    </script>
+
+    <h1>Você é Brasileiro ou Estrangeiro?</h1>
+    <p>Você mora em qual país? <input type="text" name="pais" id="pais"> <input type="button" value="Resposta" onclick="resultado()"></p>
+    <p id="resp"></p>
+    <script>
+        function resultado() { 
+            var pais = window.document.querySelector('input#pais')
+            var resp = window.document.querySelector('#resp')
+            if (pais === `Brasil`) {
+                resp.innerHTML= `<p>Você é <strong>Brasileiro</strong></p>!`
+            } else {
+                resp.innerHTML= `<p>Você é <strong>Estrangeiro</strong>!</p>`
+            }
+            
+        }
+    </script>
+    
+</body>
+</html>
