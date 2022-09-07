@@ -20,37 +20,37 @@ function identificar() {
             genero = 'Homem'
             if (idade < 7){
                 genero = 'um Bebê'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/homem-baby.png')
+                img.setAttribute('src','midias/homem-baby.png')
             } else if (idade >= 7 && idade <= 14){
                 genero = 'um Menino'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/homem-menino.png')
+                img.setAttribute('src','midias/homem-menino.png')
             } else if (idade < 21) {
                 genero = 'um Jovem'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/homem-jovem.png')
+                img.setAttribute('src','midias/homem-jovem.png')
             } else if (idade <= 50) {
                 genero = 'um Homem'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/homem-adulto.png')
+                img.setAttribute('src','midias/homem-adulto.png')
             } else {
                 genero = 'um Idoso'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/homem-idoso.png')
+                img.setAttribute('src','midias/homem-idoso.png')
             }
         } else if (sex[1].checked){
             genero = 'Mulher'
             if (idade < 7) {
                 genero = 'um Bebê'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/mulher-baby.png')
+                img.setAttribute('src','midias/mulher-baby.png')
             } else if (idade >= 7 && idade <= 14) {
                 genero = 'uma Menina'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/mulher-menina.png')
+                img.setAttribute('src','midias/mulher-menina.png')
             } else if (idade < 21) {
                 genero = 'uma Jovem'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/mulher-jovem.png')
+                img.setAttribute('src','midias/mulher-jovem.png')
             } else if (idade <= 50) {
                 genero = 'uma Mulher'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/mulher-adulta.png')
+                img.setAttribute('src','midias/mulher-adulta.png')
             } else {
                 genero = 'uma Idosa'
-                img.setAttribute('src','../Funcões_Decisão%20II/midias/mulher-idosa.png')
+                img.setAttribute('src','midias/mulher-idosa.png')
             }
         }
         side.style.textAlign = 'center'
