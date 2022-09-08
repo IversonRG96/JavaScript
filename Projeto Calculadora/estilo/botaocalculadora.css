@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/************************** Botoes Calculadora *************************/
+
+.botao {
+    position: absolute;
+    width: 64px;
+    height: 45px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0);
+}
+
+#botaooff {transform: translate(-240%,-209%);}
+#botaomrc { transform: translate(-240%,-92%);}
+#botao7 { transform: translate(-240%,37%);}
+#botao4 { transform: translate(-240%, 163%);}
+#botao1 { transform: translate(-240%,289%);}
+#botao0 { transform: translate(-240%,418%);}
+
+#botaomem { transform: translate(-113%,-209%);}
+#botaom- { transform: translate(-113%,-92%);}
+#botao8 { transform: translate(-113%,37%);}
+#botao5 { transform: translate(-113%,163%);}
+#botao2 { transform: translate(-113%,289%);}
+#botaoponto { transform: translate(-113%,418%);}
+
+#botaoraiz { transform: translate(14%,-209%);}
+#botaommais { transform: translate(14%,-92%);}
+#botao9 { transform: translate(14%,37%);}
+#botao6 { transform: translate(14%,163%);}
+#botao3 { transform: translate(14%,289%);}
+#botaoigual { transform: translate(14%,418%);}
+
+#botaoporc { transform: translate(141%,-209%);}
+#botaodiv { transform: translate(141%,-92%);}
+#botaox { transform: translate(141%,37%);}
+#botao- { transform: translate(141%,163%);}
+#botaomais { transform: translate(141%,125%); height: 104px;}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body,main {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    background: url('../Imagens/plano-de-fundo.jpg');
+     
+}
+
+.calculadora {
+    position: absolute;
+    width: 368px;
+    height: 530px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: black url('../Imagens/calculadora.png') no-repeat;
+    background-size: cover;
+}
+
+.telacalc {
+    position: absolute;
+    width: 308px;
+    height: 74px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-251%);
+    background: white;
+    display: grid;
+    place-items: center;
+}
+
+.telacalc p {
+    font-size: 2.5em;
+    color: black;
+}
