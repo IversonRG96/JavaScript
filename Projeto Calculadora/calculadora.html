@@ -12,40 +12,41 @@
 <body>
     <main>
         <section>
-            <div class="calculadora">
-            </div>
+            <div class="calculadora"></div>
         </section>
         <section>
-            <div class="telacalc" id="telacalc">
-                <p id="textotela" ></p>
-            </div>
+            <div class="avisold" id="avisold"><p id="textovisor" >OFF</p></div>
+            <div class="avisold2" id="avisold2"><p id="textovisor" ></p></div>
+        </section>
+        <section>
+            <div class="telacalc" id="telacalc"><p id="textotela" ></p></div>
         </section>
         <section>
 
                 <div class="botao" id="botaoa1" onclick="desligar()"></div>
                 <div class="botao" id="botaoa2" onclick="apagar()"></div>
-                <div class="botao" id="botaoa3" onclick="insert('7')"></div>
-                <div class="botao" id="botaoa4" onclick="insert('4')"></div>
-                <div class="botao" id="botaoa5" onclick="insert('1')"></div>
-                <div class="botao" id="botaoa6" onclick="insert('0')"></div>
+                <div class="botao" id="botaoa3" onclick="caracter('7')"></div>
+                <div class="botao" id="botaoa4" onclick="caracter('4')"></div>
+                <div class="botao" id="botaoa5" onclick="caracter('1')"></div>
+                <div class="botao" id="botaoa6" onclick="caracter('0')"></div>
                 
                 <div class="botao" id="botaob1" onclick="ligar()"></div>
-                <div class="botao" id="botaob3" onclick="insert('8')"></div>
-                <div class="botao" id="botaob4" onclick="insert('5')"></div>
-                <div class="botao" id="botaob5" onclick="insert('2')"></div>
+                <div class="botao" id="botaob3" onclick="caracter('8')"></div>
+                <div class="botao" id="botaob4" onclick="caracter('5')"></div>
+                <div class="botao" id="botaob5" onclick="caracter('2')"></div>
 
                 <div class="botao" id="botaoc1" onclick="calcraiz()"></div>
-                <div class="botao" id="botaoc2" onclick="insert('.')"></div>
-                <div class="botao" id="botaoc3" onclick="insert('9')"></div>
-                <div class="botao" id="botaoc4" onclick="insert('6')"></div>
-                <div class="botao" id="botaoc5" onclick="insert('3')"></div>
+                <div class="botao" id="botaoc2" onclick="caracter('.')"></div>
+                <div class="botao" id="botaoc3" onclick="caracter('9')"></div>
+                <div class="botao" id="botaoc4" onclick="caracter('6')"></div>
+                <div class="botao" id="botaoc5" onclick="caracter('3')"></div>
                 <div class="botao" id="botaoc6" onclick="calcular()"></div>
 
-                <div class="botao" id="botaod1" onclick="insert('%')"></div>
-                <div class="botao" id="botaod2" onclick="insert('/')"></div>
-                <div class="botao" id="botaod3" onclick="insert('*')"></div>
-                <div class="botao" id="botaod4" onclick="insert('-')"></div>
-                <div class="botao" id="botaod5" onclick="insert('+')"></div>
+                <div class="botao" id="botaod1" onclick="caracter('%')"></div>
+                <div class="botao" id="botaod2" onclick="caracter('/')"></div>
+                <div class="botao" id="botaod3" onclick="caracter('*')"></div>
+                <div class="botao" id="botaod4" onclick="caracter('-')"></div>
+                <div class="botao" id="botaod5" onclick="caracter('+')"></div>
         </section>
     </main>
 </body>
