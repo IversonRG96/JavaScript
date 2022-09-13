@@ -11,26 +11,28 @@
 <body>
     <main>     
         <header>
-            <h1>Vamos calcular o seu IMC?</h1>
-            <p>Preencha os dados abaixo!</p>
+            <div class="menu">
+                <h1>Vamos calcular o seu IMC?</h1>
+                <p class="sub">Preencha os dados abaixo!</p>
+            </div>
         </header>
         <section>
-            <div>
+            <div class="conteudo">
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome">
             </div>
-            <div>
+            <div class="conteudo">
                 <label for="altura">Altura:</label>
-                <input type="number" name="altura" id="altura">
+                <input type="number" name="altura" id="altura" placeholder="ex: 1.70">
             </div>
-            <div>
+            <div class="conteudo">
                 <label for="peso">Peso:</label>
-                <input type="number" name="peso" id="peso">
+                <input type="number" name="peso" id="peso" placeholder="ex: 50">
             </div>               
-            <div id="calcular" onclick="calcular()">
+            <div id="calcular" onclick="calcular()" class="conteudo">
                 <p>Calcular</p>
             </div>
-            <div id="resultado"></div>
+            <div id="resultado" class="conteudo"></div>
         </section>
     </main>
     
