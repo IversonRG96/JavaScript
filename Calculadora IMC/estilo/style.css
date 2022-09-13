@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+html,body,main {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+}
+
+header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -350%);
+    width: 350px;
+    height: 50px;
+    background: rgba(249, 120, 0, 0.925);
+    display: grid;
+    place-items: center center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(249, 120, 0, 0.715);
+    width: 350px;
+    height: 320px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+header, section {
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.128) ;
+}
+
+div {
+    text-align: left;
+    margin: 15px 25px;
+}
+
+input { width: 200px; height: 25px; border:none; }
+input#nome {transform: translate(19%, 0%);}
+input#altura {transform: translate(16%, 0%);}
+input#peso {transform: translate(24%, 0%);}
+
+#calcular, #resultado {
+    width: 300px;
+    height: 40px;
+    background: aquamarine;
+    text-align: center;
+    display: grid;
+    place-items: center center;
+    border-radius: 3px;
+    background: rgba(249, 120, 0, 0);
+    box-shadow: 0px 0px 1.5px rgb(0, 0, 0);
+    box-sizing: content-box;
+    transition: background-color 2s;
+}
+
+#calcular:hover {
+    background-color: rgba(249, 120, 0, 0.925);
+    transition: background-color 1s;
+}
+
+#resultado {
+    margin-top: 26px;
+    height: 100px ;
+    background-color: white;
+}
