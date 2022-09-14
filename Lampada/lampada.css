@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body,main {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 450px;
+
+}
+
+#lampada {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%,-58%);
+    background: url('../Lampada/imagens/lampada_apagada2.png') no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 400px;
+}
+
+#ligar, #desligar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 30px;
+    display: grid;
+    place-items: center center;
+    background-color: grey;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.194);
+    border-radius: 5px 5px;
+}
+
+#ligar {
+    transform: translate(-116%,600%);
+    background-color: rgba(0, 128, 0, 0.174);
+}
+
+#desligar {
+    transform: translate(0%,600%);
+    background-color: rgba(255, 0, 0, 0.146);
+}
+
+#ligar:hover, #desligar:hover {
+    transition: background-color 1.5s;
+}
+
+#ligar:hover {
+    background-color: rgba(4, 103, 4, 0.65);
+}
+
+#desligar:hover{
+    background-color: rgba(216, 59, 38, 0.65);
+}
+
