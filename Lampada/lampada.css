@@ -12,6 +12,7 @@ html,body,main {
 
 main {
     position: relative;
+    background-image: radial-gradient(white 35%, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5));
 }
 
 section {
@@ -20,7 +21,9 @@ section {
     left: 50%;
     transform: translate(-50%,-50%);
     width: 300px;
-    height: 450px;
+    height: 475px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px 8px;
 
 }
 
@@ -28,10 +31,9 @@ section {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-40%,-58%);
-    background: url('../Lampada/imagens/lampada_apagada2.png') no-repeat;
+    transform: translate(-50%,-57%);
     background-size: contain;
-    width: 300px;
+    width: 250px;
     height: 400px;
 }
 
@@ -50,12 +52,12 @@ section {
 }
 
 #ligar {
-    transform: translate(-116%,600%);
+    transform: translate(-109%,650%);
     background-color: rgba(0, 128, 0, 0.174);
 }
 
 #desligar {
-    transform: translate(0%,600%);
+    transform: translate(11%,650%);
     background-color: rgba(255, 0, 0, 0.146);
 }
 
