@@ -1,3 +1,5 @@
+
+
 const num1 = Number(prompt('Digite um Número'));
 const num2 = Number(prompt('Digite outro Número'));
 

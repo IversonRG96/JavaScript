@@ -1,3 +1,5 @@
+
+
 const titulo = Number(prompt('Digite um Número:'));
 const num_titulo = document.querySelector('.num_titulo');
 const num_titulo_text = document.querySelector('.num_titulo_text');
