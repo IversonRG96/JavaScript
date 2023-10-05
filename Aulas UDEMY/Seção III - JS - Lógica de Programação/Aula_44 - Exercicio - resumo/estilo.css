@@ -83,4 +83,11 @@ form button:hover {
     background: var(--cor2);
 }
 
+.textResult {
+    text-align: center;
+    font-size: 0.85em;
+    border-radius: 3px;
+    background-color: rgba(129, 242, 150, 0.445);
+}
+
 
