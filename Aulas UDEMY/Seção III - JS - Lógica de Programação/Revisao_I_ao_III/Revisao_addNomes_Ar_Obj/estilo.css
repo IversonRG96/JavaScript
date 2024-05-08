@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: rgb(64, 169, 217);
+    --cor2: rgb(39, 99, 127);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: var(--cor1);
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.erroBorderRed {
+    border-color: red;
+}

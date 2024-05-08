@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilo.css">
-    <title>Modelo Padrão</title>
+    <title>Revisão IMC - I</title>
 </head>
 <body>
     <section class="container">
-        <h1>Lorem, ipsum dolor sit amet cons!</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, vero debitis? Quis, neque! Voluptatem dicta sunt iusto expedita eligendi. Suscipit illo nulla itaque minima id? Illum magni quibusdam sit ipsa.</p>
-        
+        <form action="">
+            <h1>Calcular IMC (Índice de Massa Corporal)</h1>
+            <p><input type="text" name="peso" id="peso"> <label>Digite seu <strong>Peso</strong></label>
+            <p><input type="text" name="altura" id="altura"> <label>Digite sua <strong>Altura</strong></label></p>
+            <button class='btn-calcular' type="button">Calcular</button>
         </form>
-
+        <div class='resultado'><p></p></div>
     </section>
     <script src="./javascript.js"></script>
 </body>

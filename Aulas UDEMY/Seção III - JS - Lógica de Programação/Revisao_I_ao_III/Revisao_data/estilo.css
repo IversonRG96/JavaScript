@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+:root {
+    --background1: rgba(255, 115, 15, 0.822);
+    --cor2: rgb(39, 99, 127);
+    --shadowBox: 3px 3px 3px rgba(0, 0, 0, 0.301) ;
+    --boxRadius: 5px 5px; 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: var(--background1);
+}
+
+.container , .realizarPedido {
+    margin: 10px auto;
+    max-width: 780px;
+    text-align: center;
+    box-shadow: var(--shadowBox);
+    background-color: rgb(255, 255, 255);
+    border-radius: var(--boxRadius);
+    
+}
+
+.container h1 {
+    margin-bottom: 0px;
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.container p {
+    padding-top: 10px;
+}
+
+.realizarPedido {
+    width: 400px;
+}
+
+.container2 {
+    margin: auto;
+    padding: 20px;
+    max-width: 780px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+form input, form label, form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form input {
+    padding: 0px 20px;
+    height: 50px;
+    font-size: 24px;
+}
+
+form input:focus {
+    outline: 1px solid var(--cor1);
+}
+
+form button {
+    margin-top: 30px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background: var(--cor1);
+    color: #fff;
+}
+
+form button:hover {
+    background: var(--cor2);
+}
+
+

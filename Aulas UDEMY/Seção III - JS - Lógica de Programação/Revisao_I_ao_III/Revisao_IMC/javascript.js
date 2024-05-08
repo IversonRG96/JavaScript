@@ -17,7 +17,7 @@ function teste () {
     
     let result = peso/(altura*altura);
 
-    if (peso === "" && peso === 0 && isNaN(peso) === false && altura === "" && altura === 0 && isNaN(altura) === false) {
+    if (peso === "" && peso === 0 && isNaN(peso) === false && altura === "" && altura === 0 && isNaN(altura) === false) { //falta resolver isso
         escreverTela.innerHTML = `<p><strong>ERRO encontrado, tente novamente!</strong></p>`;
     } else if (result < 18.5){
         escreverTela.innerHTML = `<p>Seu IMC é igual a <strong>${result.toFixed(2)}</strong>, e sua classificação é ${classificacao(result)}</p>`
