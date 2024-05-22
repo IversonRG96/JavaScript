@@ -7,28 +7,172 @@
     <title>Revisão - Data</title>
 </head>
 <body>
-    <section class="container">
-        <img src="./images/burguer.png" alt="burguer" class="imgBurguer">
-        <div class="titulo">
+    <section class="containerPainel">
+        <img src="./images/burguer.png" alt="burguer" class="imgBurgerPainel">
+        <div class="tituloPainel">
             <h1>BIG Burger Online</h1>
             <h2>Seu pedido em apenas um click!</h2>
         </div>
-        
     </section>
     <div class="boxTagPedido">
         <img src="./images/seta.png" alt="seta-Direita" class="imgSeta">
         <div class="realizarPedido"><strong>Realizar Pedido</strong></div>
         <img src="./images/seta.png" alt="seta-Direita" class="imgSetaEsquerda">
     </div>
-    <section class="container2">
-        <h2><strong>Realizar Pedido</strong></h2>
-        <form id="formulario">
-            <div>
-                <h1>Texto</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, vero debitis? Quis, neque! Voluptatem dicta sunt iusto expedita eligendi. Suscipit illo nulla itaque minima id? Illum magni quibusdam sit ipsa.</p>
-            </div>        
-        </form>
-
+    <section class="containerPedido">
+        <div class="containerPedido2">
+            <h2 class="cp2-H2">Pedido <strong class='numPedido'>%numPedido</strong></h2>
+            <form id="formulario">
+                <h3 class="form-H3">Escolha seu Burger:</h3>
+                <div class="form-bigBoxItem">
+                    <div class="form-boxItem">
+                        <img src="./images/burger1.png" alt="Burger1" class='imgBurger'>
+                        <div class="form-item">
+                            <p class="form-p1"><strong>R$ 123,45</strong>
+                            <div>
+                                <p class="form-p2"><input type="checkbox" name="burger1" id="burger1" class="checkbox"><label for="burger1"><strong>Burger Nº1</strong></label></p>
+                            </div>
+                            <div>
+                                <p class="form-p3"><input type="number" name="quantItem" id="quantItemB1" min="1" max="10" class="checkboxNum"><label for="quantItem">Quantidade</label></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-boxItem">
+                        <img src="./images/burger1.png" alt="Burger2" class='imgBurger'>
+                        <div class="form-item">
+                            <p class="form-p1"><strong>R$ 123,45</strong>
+                            <div>
+                                <p class="form-p2"><input type="checkbox" name="burger2" id="burger2" class="checkbox"><label for="burger2"><strong>Burger Nº2</strong></label></p>
+                            </div>
+                            <div>
+                                <p class="form-p3"><input type="number" name="quantItemB2" id="quantItemB2" min="1" max="10" class="checkboxNum"><label for="quantItemB2">Quantidade</label></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-boxItem">
+                        <img src="./images/burger1.png" alt="Burger3" class='imgBurger'>
+                        <div class="form-item">
+                            <p class="form-p1"><strong>R$ 123,45</strong>
+                            <div>
+                                <p class="form-p2"><input type="checkbox" name="burger3" id="burger3" class="checkbox"><label for="burger3"><strong>Burger Nº3</strong></label></p>
+                            </div>
+                            <div>
+                                <p class="form-p3"><input type="number" name="quantItemB3" id="quantItemB3" min="1" max="10" class="checkboxNum"><label for="quantItemB3">Quantidade</label></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="form-H3">Batata Frita:</h3>
+                <div class="form-bigBoxItem">
+                    <div class="form-boxItem">
+                        <img src="./images/batata-frita.png" alt="batata-frita1" class='imgBatata'>
+                        <div class="form-item">
+                            <p class="form-p1"><strong>R$ 123,45</strong>
+                            <div>
+                                <p class="form-p2"><input type="checkbox" name="batata-frita1" id="batata-frita1" class="checkbox"><label for="batata-frita1"><strong>Batata-Frita Nº1</strong></label></p>
+                            </div>
+                            <div>
+                                <p class="form-p3"><input type="number" name="quantItemBF1" id="quantItemBF1" min="1" max="10" class="checkboxNum"><label for="quantItemBF1">Quantidade</label></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-boxItem">
+                        <img src="./images/batata-frita.png" alt="batata-frita2" class='imgBatata'>
+                        <div class="form-item">
+                            <p class="form-p1"><strong>R$ 123,45</strong>
+                            <div>
+                                <p class="form-p2"><input type="checkbox" name="batata-frita2" id="batata-frita2" class="checkbox"><label for="batata-frita2"><strong>Batata-Frita Nº2</strong></label></p>
+                            </div>
+                            <div>
+                                <p class="form-p3"><input type="number" name="quantItemBF2" id="quantItemBF2" min="1" max="10" class="checkboxNum"><label for="quantItemBF2">Quantidade</label></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-boxItem">
+                        <img src="./images/batata-frita.png" alt="batata-frita3" class='imgBatata'>
+                        <div class="form-item">
+                            <p class="form-p1"><strong>R$ 123,45</strong>
+                            <div>
+                                <p class="form-p2"><input type="checkbox" name="batata-frita3" id="batata-frita3" class="checkbox"><label for="batata-frita3"><strong>Batata-Frita Nº3</strong></label></p>
+                            </div>
+                            <div>
+                                <p class="form-p3"><input type="number" name="quantItemBF3" id="quantItemBF3" min="1" max="10" class="checkboxNum"><label for="quantItemBF3">Quantidade</label></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="form-H3">Refrigerante:</h3>
+                <div class="form-bigBoxItem">
+                    <div class="form-boxItem">
+                        <img src="./images/refrigerante.png" alt="refrigerante1" class='imgRefri'>
+                        <div class="form-item">
+                            <p class="form-p1"><strong>R$ 123,45</strong>
+                            <div>
+                                <p class="form-p2"><input type="checkbox" name="refri1" id="refri1" class="checkbox"><label for="refri1"><strong>Refri. Nº1</strong></label></p>
+                            </div>
+                            <div>
+                                <p class="form-p3"><input type="number" name="quantItemR1" id="quantItemR1" min="1" max="10" class="checkboxNum"><label for="quantItemR1">Quantidade</label></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-boxItem">
+                        <img src="./images/refrigerante.png" alt="refrigerante2" class='imgRefri'>
+                        <div class="form-item">
+                            <p class="form-p1"><strong>R$ 123,45</strong>
+                            <div>
+                                <p class="form-p2"><input type="checkbox" name="refri2" id="refri2" class="checkbox"><label for="refri2"><strong>Refri. Nº2</strong></label></p>
+                            </div>
+                            <div>
+                                <p class="form-p3"><input type="number" name="quantItemR2" id="quantItemR2" min="1" max="10" class="checkboxNum"><label for="quantItemR2">Quantidade</label></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-boxItem">
+                        <img src="./images/refrigerante.png" alt="refrigerante3" class='imgRefri'>
+                        <div class="form-item">
+                            <p class="form-p1"><strong>R$ 123,45</strong>
+                            <div>
+                                <p class="form-p2"><input type="checkbox" name="refri3" id="refri3" class="checkbox"><label for="refri3"><strong>Refri. Nº3</strong></label></p>
+                            </div>
+                            <div>
+                                <p class="form-p3"><input type="number" name="quantItemR3" id="quantItemR3" min="1" max="10" class="checkboxNum"><label for="quantItemR3">Quantidade</label></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="form-tagEndereco"><strong>Informar Endereço:</strong></h3>
+                <div class="e-alinhamentoBox">
+                    <p class="e-alinhamentoParag">
+                        <label for="nome">Nome: </label><input type="text" class="nome">
+                        <label for="sobrenome">Sobrenome: </label><input type="text" class="sobrenome">
+                    </p>
+                    <p class="e-alinhamentoParag">
+                        <label for="telefone">Telefone: </label><input type="tel" class="telefone">
+                        <label for="celular">Celular: </label><input type="tel" class="celular">
+                    </p>
+                    <p class="e-alinhamentoParag">
+                        <label for="cep">CEP: </label><input type="number" name="cep" id="cep">
+                        <label for="endereco">Endereço: </label><input type="text" name="ender" id="ender">
+                        <label for="numeroCasa">Nº: </label><input type="number" name="numeroCasa" id="numeroCasa">
+                    </p>
+                    <button type="submit" class="form-bttEnviar">Enviar Pedido</button>
+                </div>
+                <div class="form-resultadoPedido">
+                    <div>
+                        <p><strong>PEDIDO REALIZADO COM SUCESSO!</strong>
+                        <p>Confira os dados enviados abaixo:</p>
+                    </div>
+                    <p>Pedido realizado por %nomeUsuario %Sobrenome, %tel, %cel, %CEP, %Endereço e %Nº. </p>
+                    <p>Seu pedido %numPedido:</p>
+                    <ul>
+                        <li>Tipo Burger e quantidade</li>
+                        <li>Tipo Batata-frita e quantidade</li>
+                        <li>Tipo Refrigerante e quantidade</li>
+                    </ul>
+                    <p>Pedido realizado ás %hora, %dia, %mes, %ano.</p>
+                </div>
+            </form>
+        </div>
     </section>
     <script src="./javascript.js"></script>
 </body>

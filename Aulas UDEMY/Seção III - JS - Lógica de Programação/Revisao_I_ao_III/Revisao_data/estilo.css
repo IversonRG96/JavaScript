@@ -4,6 +4,9 @@
     --background1: rgb(255, 255, 255);
     --background2: rgb(255, 115, 15);
     --background3: rgb(198, 89, 11);
+    --background4: rgb(243, 163, 105);
+    --background5: rgba(1, 159, 12, 0.324);
+    --contorno1: rgba(255, 109, 5, 0.387);
     --cor2: rgb(39, 99, 127);
     --shadowBox: 3px 3px 3px rgba(0, 0, 0, 0.301) ;
     --boxRadius: 5px 5px; 
@@ -30,21 +33,20 @@ body {
     background: var(--background1);
 }
 
-.container, .realizarPedido {
+.containerPainel, .realizarPedido {
     margin: 10px auto;
     max-width: 780px;
     text-align: center;
     box-shadow: var(--shadowBox);
     background-color: rgb(255, 255, 255);
-    border-radius: var(--boxRadius);
-    
+    border-radius: var(--boxRadius); 
 }
 
-.imgBurguer {
+.imgBurgerPainel {
     width: 350px;
 }
 
-.container {
+.containerPainel {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -53,18 +55,19 @@ body {
     color: white;
 }
 
-.titulo {
+.tituloPainel {
+    padding-right: 20px;
     text-shadow: var(--shadowBox);
 }
 
-.container h1 {
+.containerPainel h1 {
     margin-bottom: 0px;
     padding-top: 20px;
     font-size: 2em;
     font-weight: bolder;
 }
 
-.container p {
+.containerPainel p {
     padding-top: 10px;
 }
 
@@ -84,34 +87,95 @@ body {
     transform:rotateY(180deg);
 }
 
-.realizarPedido {
+.imgBurger, .imgBatata, .imgRefri {
+    width: 200px;
+}
+.realizarPedido, .form-tagEndereco {
     background-color: var(--background2);
     color: #fff;
     text-shadow: var(--shadowBox);
-    width: 400px;
+    width: 350px;
 }
 
-.container2 {
+.containerPedido {
     display: block;
-    margin: 10px auto;
+    margin: auto;
+    width: 780px;
+}
+
+.containerPedido2 {
+    margin: auto;
     padding: 10px;
     width: 760px;
     border-radius: 10px;
+    text-align: center;
     background: var(--background1);
     border: 4px solid var(--background2);
     border-style: dashed;
 }
 
-form input, form label, form button {
-    display: block;
-    margin-bottom: 10px;
-    width: 100%;
+.cp2-H2 {
+    text-align: right;
+    color: rgba(128, 128, 128, 0.692);
 }
 
-form input {
-    padding: 0px 20px;
-    height: 50px;
-    font-size: 24px;
+.form-H3 {
+    padding: 20px 0px;
+}
+
+.form-bigBoxItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-boxItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    margin: 5px;
+    border:  2px solid var(--contorno1);
+    border-radius: 5px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-p2, .form-p3 {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+}
+
+.form-p1 {
+    font-size: 1.3em;
+    color: red;
+}
+
+.form-p3 {
+    font-size: 0.8em;
+}
+
+.checkbox {
+    width: 20px;
+}
+
+.checkboxNum {
+    width: 35px;
+}
+
+#formulario {
+    padding: 0px 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
 }
 
 form input:focus {
@@ -131,5 +195,64 @@ form button {
 form button:hover {
     background: var(--cor2);
 }
+
+.form-tagEndereco {
+    margin: 20px auto;
+    border-radius: var(--boxRadius);
+    box-shadow: var(--shadowBox);
+}
+
+.e-alinhamentoBox {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.e-alinhamentoParag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.e-alinhamentoParag > label {
+    margin-left: 20px;
+    margin-right: 7px;
+    width: auto;
+
+}
+
+.form-bttEnviar {
+    margin: 20px auto;
+    width: 150px;
+    height: 35px;    
+    color: white;
+    text-shadow: var(--shadowBox);
+    background-color: var(--background4);
+    box-shadow: var(--shadowBox);    
+    border-radius: var(--boxRadius);
+    border: none;
+}
+
+.form-bttEnviar:hover {
+    background-color: var(--background2);
+}
+
+.form-resultadoPedido {
+    display: block;
+    margin: auto 20px;
+    text-align:start;
+}
+
+.form-resultadoPedido > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background5);
+}
+
+.form-resultadoPedido > p {
+    padding: 10px 0px;
+}
+
 
 
